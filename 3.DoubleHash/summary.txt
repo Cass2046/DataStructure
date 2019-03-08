@@ -1,0 +1,19 @@
+Data1:
+After multiple insertion, the load factor of hash table with quadratic probing and double hashing is increasing (<1).
+
+Data2:
+the load factor of these two hash function are the same.
+
+Data3:
+After insertion of 53, the load factor of hash table with quadratic probing is 0.811321, 
+but the load factor of hash table with double hashing is 0.830189.
+Thus, the load factor with quadratic probing after insertion is greater than double hashing, 
+but the load factor after deletion usually are the same.
+
+Data4:
+With insertion multiple elements to the hash table, the load factor with both hash function are increased with the same rate.
+
+Data5:
+Double hashing may avoid collision but if the hash is good and load factor is small then there isn't really any performance increased.
+
+In summary, if the load factor is small, the chance of collision is lower. 
